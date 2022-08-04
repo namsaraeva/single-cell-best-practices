@@ -1,0 +1,12 @@
+name: annotation
+channels:
+  - conda-forge
+dependencies:
+  - conda-forge::python=3.8.13
+  - pip:
+      - umap-learn==0.5.2
+      - anndata==0.8.0
+      - scanpy==1.9.1
+      - anndata2ri==1.1
+      - rpy2==3.5.3
+      - session_info
